@@ -135,7 +135,6 @@ returns with the total cumulative quantity summing up quantities present in cart
 __cart.totalQuantity()
 // 5
 ```
-or you can pass a custom reducer function to have full control over the calculation.
 
 
 ## License
