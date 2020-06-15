@@ -16,11 +16,11 @@ Include cartModule.js in your html file:
 ## Example
 
 ```javascript
-using `__cart` you can access object and its defined functions 
+using "__cart" you can access object and its defined functions 
 
 __cart.add({id: 1, name: "Product 1", price: 100})
 
-// you can also define quantity like this or can pass as second parameter to `add` function
+// you can also define quantity like this or can pass as second parameter to "add" function
 __cart.add({id: 2, name: "Product 2", price: 100, quantity:2})
 __cart.add({id: 2, name: "Product 2", price: 100}, 2)
 
