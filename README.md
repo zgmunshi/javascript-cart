@@ -48,6 +48,9 @@ __cart.totalPrice()
 // returns cumulative total cart item count
 __cart.totalQuantity()
 
+// onChange() event listener will help listen to any cart changes, you can bind any callback with the event, it will return all items in the cart with changes
+__cart.onChange(callback)
+
 ```
 ## API 
 ```Will be added soon```
